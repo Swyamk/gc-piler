@@ -1,0 +1,9 @@
+.PHONY: clean test
+
+SRC := $(wildcard *.go)
+
+all: $(SRC)
+	go build && go test
+
+clean:
+	rm -f go2cpp
