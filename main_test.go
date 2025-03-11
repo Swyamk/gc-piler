@@ -53,5 +53,8 @@ var testPrograms = []string{
 	"functions_test", 
     "maps_test",      
     "slices_test",
+	"struct_methods_test", 
+    "geometry_test",       
+    "concurrency_test",
 }
 
