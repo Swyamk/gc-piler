@@ -15,4 +15,10 @@ gc-piler is a project that converts Go language code to C++. The code for this p
 - **Performance-Critical Applications**: Convert performance-critical Go code to C++ to take advantage of C++'s efficiency.
 - **Cross-Platform Development**: Use Go for development and convert to C++ for deployment on platforms where C++ is more suitable.
 
-Feel free to contribute to this project or report any issues you encounter.
+## How to Run
+
+1. Add your Go code to `main.go`.
+2. Navigate to the `gc-piler` directory:
+   ```sh
+   cd gc-piler
+3. Use ```go2cpp main.go``` to execute your go code and convert your code to c++
