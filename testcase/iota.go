@@ -8,6 +8,6 @@ const (
 	c
 )
 
-func main() {
+func main_iota() {
 	fmt.Println(a, b, c)
 }

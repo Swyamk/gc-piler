@@ -3,10 +3,10 @@ package main
 import "fmt"
 
 var (
-	switchExpressionCounter int = -1
-	b                       bool
+	_switchExpressionCounter int = -1
+	_b                       bool
 )
 
-func main() {
-	fmt.Println("Look at that:", b)
+func main_var2() {
+	fmt.Println("Look at that:", _b)
 }

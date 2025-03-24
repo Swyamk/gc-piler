@@ -1,13 +1,13 @@
 package main
 
-var x = 1
+var _x = 1
 
 var (
-	y = 2
-	z = 3
+	_y = 2
+	_z = 3
 )
 
-func main() {
+func main_var() {
 	var (
 		a string = "hi"
 	)
@@ -16,5 +16,5 @@ func main() {
 
 	n = a
 
-	println(n, x, y, z)
+	println(n, _x, _y, _z)
 }

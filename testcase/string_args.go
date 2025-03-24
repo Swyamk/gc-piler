@@ -6,7 +6,7 @@ func threecat(a, b, c string) string {
 	return a + b + c
 }
 
-func main() {
+func string_args() {
 	threecat("in", "cred", "ible")
 	fmt.Println("hi")
 }

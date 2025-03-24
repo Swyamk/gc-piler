@@ -9,6 +9,6 @@ var testStrings = []string{
 	"there",
 }
 
-func main() {
+func var_string() {
 	fmt.Println(testStrings[1])
 }

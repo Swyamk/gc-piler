@@ -10,7 +10,7 @@ type Creature struct {
 	name string
 }
 
-func main() {
+func multiline_map() {
 	o := map[int]*Creature{
 		0: &Creature{1.2, 3.4, "Bob"},
 		1: &Creature{4.5, 6.7, "Alice"},

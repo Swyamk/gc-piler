@@ -4,7 +4,7 @@ import (
 	"fmt"
 )
 
-func main() {
+func range_map_value() {
 	m := map[string]string{"first": "hi", "second": "you", "third": "there"}
 	first := true
 	for _, v := range m {

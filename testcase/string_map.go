@@ -2,7 +2,7 @@ package main
 
 import "fmt"
 
-func main() {
+func string_map() {
 	replacements := map[string]string{
 		"\")":  "\"s)",
 		"\";":  "\"s;",

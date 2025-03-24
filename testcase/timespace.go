@@ -5,7 +5,7 @@ import (
 	"strings"
 )
 
-func main() {
+func timespace() {
 	s := "    hello\t   \n "
 	fmt.Println("|" + strings.TrimSpace(s) + "|")
 }

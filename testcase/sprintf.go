@@ -6,7 +6,7 @@ import (
 
 var globalMessage string
 
-func main() {
+func sprintf() {
 	globalMessage = fmt.Sprintf("hello: %v != %v", 123, 256)
 	fmt.Println(globalMessage)
 }

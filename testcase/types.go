@@ -14,7 +14,7 @@ type (
 
 type snakestring string
 
-func main() {
+func types() {
 	var sss snakestring = "sssssss"
 	var (
 		n u8 = 255

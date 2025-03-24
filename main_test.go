@@ -13,7 +13,7 @@ import (
 const testcaseDirectory = "testcases/"
 
 var testPrograms = []string{
-	//"multiline_map",
+	"multiline_map",
 	"multiline_string",
 	"var_string",
 	"var_multi",
@@ -56,5 +56,6 @@ var testPrograms = []string{
 	"struct_methods_test", 
     "geometry_test",       
     "concurrency_test",
+	"panic_recovery_test",
 }
 

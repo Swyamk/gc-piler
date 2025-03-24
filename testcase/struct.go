@@ -12,7 +12,7 @@ type Vec3 struct {
 
 type V3 Vec3
 
-func main() {
+func main_struct() {
 	v := &V3{1.2, 3.4, 5.6}
 	fmt.Println(v)
 }

@@ -4,7 +4,7 @@ import (
 	"fmt"
 )
 
-func main() {
+func for_regular() {
 	for i := 0; i < 10; i++ {
 		fmt.Println("UP   :", i)
 	}

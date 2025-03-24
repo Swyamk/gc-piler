@@ -18,7 +18,7 @@ const s3 = `abc`
 
 var s4 = `abc`
 
-func main() {
+func multiline_string() {
 	s5 := `abc`
 	s6 := `
 	a

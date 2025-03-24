@@ -4,7 +4,7 @@ import (
 	"fmt"
 )
 
-func main() {
+func main_switch() {
 	fruit := "apple"
 	switch fruit {
 	case "banana":

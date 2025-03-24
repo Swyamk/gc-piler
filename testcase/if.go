@@ -2,7 +2,7 @@ package main
 
 import "fmt"
 
-func main() {
+func main_if() {
 	x := 4
 	fmt.Print("The number + 3 is... ")
 	if x+3 > 7 {
